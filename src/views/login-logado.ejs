@@ -1,0 +1,26 @@
+<%- include('includes/head')%>
+<%- include('includes/navbar')%>
+
+<div class="container">
+   <div class="row">
+      <div class="col-lg-2"></div>
+
+      <div class="col-lg-8">
+      <h1 class="text-center my-3">Olá, <%= user.email%></h1>
+      <%- include ('includes/messages'); %>
+
+      <p class="text-center lead">
+        Acesse seus <a href="/contato/index">Contatos</a>
+        ou <a href="/">Cadastre</a> um novo contato.
+      </p>
+
+
+
+       
+
+    <div class="col-lg-2"></div>
+
+</div>
+<%- include('includes/footer')%>
+
+
